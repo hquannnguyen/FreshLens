@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.streamlit/secrets.toml
+data/images/**
+!data/images/README.md
+models/*.joblib
+outputs/*
+!outputs/.gitkeep

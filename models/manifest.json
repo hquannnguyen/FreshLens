@@ -1,0 +1,30 @@
+{
+  "model_id": "freshlens_svm_baseline_v1",
+  "model_type": "SVM (RBF Kernel) + StandardScaler",
+  "classes": [
+    "green",
+    "ripe",
+    "turning"
+  ],
+  "feature_version": "hsv_hist_18_16_16_v1",
+  "num_features": 50,
+  "segmentation": "grabcut",
+  "best_hyperparameters": {
+    "C": 0.5,
+    "kernel": "rbf",
+    "class_weight": "balanced"
+  },
+  "dataset": {
+    "train_samples": 540,
+    "val_samples": 180,
+    "test_samples": 180,
+    "total_samples": 900
+  },
+  "metrics": {
+    "val_accuracy": 0.8722,
+    "val_macro_f1": 0.8713,
+    "test_accuracy": 0.8500,
+    "test_macro_f1": 0.8486
+  }
+}
+

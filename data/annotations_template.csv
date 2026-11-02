@@ -1,0 +1,2 @@
+image_id,filename,relative_path,split,class,fruit_id,session_id,device,lighting,annotator,sha256,label_rule_version,note
+img_0001,tomato_001.jpg,train/green/tomato_001.jpg,train,green,fruit_01,sess_01,phone_cam,diffused_light,member1,,v1.0,chup goc thang

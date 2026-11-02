@@ -1,0 +1,27 @@
+{
+  "model_id": "freshlens_cnn_mobilenetv2_v1",
+  "model_type": "Deep Learning CNN (MobileNetV2)",
+  "backbone": "mobilenet_v2",
+  "input_resolution": [
+    224,
+    224
+  ],
+  "classes": [
+    "green",
+    "ripe",
+    "turning"
+  ],
+  "best_epoch": 10,
+  "dataset": {
+    "train_samples": 540,
+    "val_samples": 180,
+    "test_samples": 180,
+    "total_samples": 900
+  },
+  "metrics": {
+    "val_accuracy": 0.8333333333333334,
+    "val_macro_f1": 0.8340599571784066,
+    "test_accuracy": 0.8333333333333334,
+    "test_macro_f1": 0.8303360433604335
+  }
+}
